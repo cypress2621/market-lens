@@ -1,0 +1,31 @@
+# Dependencies and generated output
+node_modules/
+.next/
+.vinext/
+.wrangler/
+dist/
+out/
+coverage/
+*.tsbuildinfo
+# Local accounts, credentials, rules, logs and development metadata
+.env*
+!.env.example
+.local-data/
+.openai/
+.codex/
+.agents/
+.local-server.pid
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.sqlite*
+*.har
+*.zip
+*.bak
+*.tmp
+credentials*.json
+*position-rules*.json
+.DS_Store
